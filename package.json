@@ -15,6 +15,10 @@
     "nodejs",
     "browserify"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jergason/rotten-tomatoes.git"
+  },
   "author": "Jamison Dance <jergason@gmail.com> (http://jamisondance.com)",
   "license": "MIT",
   "dependencies": {
