@@ -1,0 +1,26 @@
+{
+  "name": "rotten-tomatoes",
+  "version": "0.1.0",
+  "description": "JavaScript client for the Rotten Tomatoes api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "keywords": [
+    "rotten",
+    "tomatoes",
+    "movies",
+    "api",
+    "browser",
+    "nodejs",
+    "browserify"
+  ],
+  "author": "Jamison Dance <jergason@gmail.com> (http://jamisondance.com)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.4"
+  }
+}
