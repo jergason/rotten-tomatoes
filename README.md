@@ -5,15 +5,15 @@ Rotten Tomatoes is a promise-based module for interacting with the
 node.js and the browser.
 
 ## Installation
-
+```bash
 npm install --save rotten-tomatoes
-
+```
 
 ## Usage
 
 ```JavaScript
-var RottenTomatoes = require('rotten-tomatoes');
-var rt = new RottenTomatoes('my rotten tomatoes api key');
+const RottenTomatoes = require('rotten-tomatoes');
+const rt = new RottenTomatoes('my rotten tomatoes api key');
 
 // Toy Story 3 rotten tomatoes id
 rt.get('770672122')
@@ -27,10 +27,10 @@ rt.get('770672122')
 
 ```JavaScript
 // pass in the api key as a string
-var rt = new RottenTomatoes(apiKey);
+const rt = new RottenTomatoes(apiKey);
 
 // get a movie by rotten tomatoes id
-var promise = rt.get('770672122');
+const promise = rt.get('770672122');
 
 // get 25 search results for 'Toy Story'
 promise = rt.search('Toy Story', {page: 1, page_size: 25})
